@@ -11,8 +11,9 @@ int main(int argc, char *argv[])
 //So Hierdie is wat ek doen elke keer as ek iets verander:
 // 1. Verander iets.
 // 2. Gaan onder Tools / Git / Local Respitory / Commit
-// 3. Check "Select All" aan die regter kant en Commit Regs Onder In hoekerig
-// 4. Gaan na Tools / Git / Remote Respitory / Push
+// 3. Sê "Save All"
+// 4. Check "Select All" aan die regter kant en Commit Regs Onder In hoekerig
+// 5. Gaan na Tools / Git / Remote Respitory / Push
 
 
 //Wat ek dink jy moet doen om dit ook so te doen:
