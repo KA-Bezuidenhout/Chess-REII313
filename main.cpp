@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
 
 //Wat ek dink jy moet doen om dit ook so te doen:
-// Gaan na die link en Download daardie files waarookal jy wil.
+// ? Ek weet nie, ek dink jy moet eerstedie veranderinge van my goed af kry, dan net jou eie Local Respitory op 'n manier kry -- dink ek
 //
 //
 
