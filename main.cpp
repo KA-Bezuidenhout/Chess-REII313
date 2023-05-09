@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 // 2. Gaan onder Tools / Git / Local Respitory / Commit
 // 3. Sê "Save All"
 // 4. Check "Select All" aan die regter kant en  Gee 'n comment aan die linkerkant wat ek verander het, dan Commit Regs Onder In hoekerig
-// 5. Gaan na Tools / Git / Remote Respitory / Push (Dan upload ek dit na die link)
+// 5. Gaan na Tools / Git / Remote Respitory / Push (Dan upload ek dit na die link -- ek moes eerste in sign deur my browser)
 
 
 //Wat ek dink jy moet doen om dit ook so te doen:
