@@ -12,7 +12,8 @@ MainWindow::MainWindow(QWidget *parent)
     initBoard();
 
     thelabel = new QLabel(this);
-    thelabel->setPixmap(QPixmap(":/Img/pion.jpg").scaled(100,100));
+    thelabel->setPixmap(QPixmap(":/Black_pawn.webp").scaled(100,100));
+//    thelabel->setPixmap(QPixmap(":/white_pawn.png").scaled(200,200));
     thelabel->setFixedSize(thelabel->pixmap()->height(), thelabel->pixmap()->width());
 }
 

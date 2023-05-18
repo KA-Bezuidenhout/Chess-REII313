@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Black_pawn.webp</file>
+        <file>white_pawn.png</file>
+    </qresource>
+</RCC>
