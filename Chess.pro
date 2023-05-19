@@ -6,11 +6,13 @@ CONFIG -= app_bundle
 
 
 SOURCES += \
+        board.cpp \
         main.cpp \
         mainwindow.cpp
 
 
 HEADERS += \
+    board.h \
     mainwindow.h
 
 RESOURCES += \
