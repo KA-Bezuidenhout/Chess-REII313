@@ -38,7 +38,7 @@ void Background::fillBackgroundWithSquares(QGraphicsScene *scene)
 Square::Square(int x, int y)
 {
     // draw a square
-    setRect(x,y,10,10);
+    setRect(x,y,49,49);
     pen.setBrush(Qt::NoBrush);
     setPen(pen);
     setBrush(Qt::cyan);

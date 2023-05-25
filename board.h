@@ -19,7 +19,7 @@ public:
 #ifndef BACKGROUND_H
 #define BACKGROUND_H
 #include <QGraphicsScene>
-//#include <square.h>
+
 class Background
 {
 public:
@@ -35,15 +35,12 @@ public:
 #ifndef SQUARE_H
 #define SQUARE_H
 #include <QGraphicsRectItem>
-#include <QGraphicsView>
-#include <QGraphicsRectItem>
 
 
 class Square : public QGraphicsRectItem
 {
 public:
     Square(int x, int y);
-    QGraphicsRectItem Squars();
 
 private:
     QPen pen;
