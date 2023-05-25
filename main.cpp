@@ -13,8 +13,6 @@ int main(int argc, char *argv[])
 //    MainWindow w;
 //    w.show();
 
-//////////////////////////////board with squares
-
     // create a scene
     QGraphicsScene * scene = new QGraphicsScene(0,0,200,250);
 
