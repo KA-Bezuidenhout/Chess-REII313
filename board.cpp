@@ -7,8 +7,6 @@ board::board()
 
 }
 
-///////////////////////////////////
-//#include "background.h"
 
 Background::Background()
 {
@@ -24,24 +22,19 @@ void Background::fillBackgroundWithSquares(QGraphicsScene *scene)
     // add squares to the scene
     for (int i = 0; i < 8; i++)
         for (int j = 0; j < 8; j++) {
-            squares[i][j] = new Square(i*50,j*50);
-//            squares[i][j] = new QGraphicsRectItem(i*50,j*50);
+            squares[i][j] = new Square(i*90,j*90);
             scene->addItem(squares[i][j]);
         }
-
 }
 
-////////////////////////////////////
-
-//#include "square.h"
 
 Square::Square(int x, int y)
 {
     // draw a square
-    setRect(x,y,49,49);
-    pen.setBrush(Qt::NoBrush);
-    setPen(pen);
-    setBrush(Qt::cyan);
+    setRect(x,y,90,90);
+    pen.setBrush(Qt::black);
+    setBrush(Qt::gray);
+//    setBrush(QColor(225,0,0,127));
     setAcceptHoverEvents(true);
     setAcceptedMouseButtons(Qt::LeftButton);
     show();

@@ -6,13 +6,27 @@ CONFIG -= app_bundle
 
 
 SOURCES += \
-        board.cpp \
         main.cpp \
         mainwindow.cpp
 
 
 HEADERS += \
-    board.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/ChessBoard.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/ChessBoard.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/EngineGame.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/EngineGame.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/Leaderboard.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/MainMenu.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/MainMenu.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/MainMenu.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/OnlineGame.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/OnlineGame.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/OptionsMenu.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/OptionsMenu.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/Piece.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/Piece.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/StockfishPlayer.h \
+    ../../../Qt Coding/Experiments/Chess/Chess_Experiment/StockfishPlayer.h \
     mainwindow.h
 
 RESOURCES += \
